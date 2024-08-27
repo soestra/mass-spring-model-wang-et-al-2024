@@ -1,0 +1,8 @@
+Mass spring simulation on a disk
+
+Used to show the difference between division allowing 4-way junctions or not. (in collaboration with Sampathkumar)
+
+Changing how fast new walls age and stiffen, changes the average angle, for example .1 vs 3 (3 ~ 2 cell cycles?)
+22ch to data:
+Area 45 / MinDis 2.0 / Center Noise 2.0 and then with Wall Noise either equally distributed 2.0 or Gaussian 0.5
+

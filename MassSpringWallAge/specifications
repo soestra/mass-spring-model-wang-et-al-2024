@@ -1,0 +1,37 @@
+CellDisk.hpp
+CellDisk.cpp
+CellDisk.qrc
+CellDisk.png
+CellDisk.mdxv
+CellDisk.mdxm
+CellDisk.txt
+Makefile
+LSspecifications
+anim.a
+pal.map
+ignore:
+MDXDebug.txt
+MorphoDynamX.py
+*.so
+*.o
+*.swp
+*
+Run:
+	gnome-terminal -x bash -c "make run"
+
+LabTable:
+	xdg-open .
+
+LabTableShell:
+	OBJSHELL
+
+DynamXHelp:
+	xdg-open /usr/local/share/doc/MorphoDynamX/html/index.html
+
+Files:
+	Model:
+		OBJED CellDisk.cpp
+	Header:
+		OBJED CellDisk.hpp
+	Description:
+		OBJED CellDisk.txt
